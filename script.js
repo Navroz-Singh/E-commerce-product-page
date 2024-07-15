@@ -189,6 +189,7 @@ cart_empty.classList.toggle("hidden")
 
     deletee.addEventListener("click", function(){
         price_factor_val_temp = 0;
+        price_factor_val = 0;
         cart_empty.classList.remove("hidden");
         cart_info.classList.add("hidden");
         checkout.classList.add("hidden");
